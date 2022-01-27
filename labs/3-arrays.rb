@@ -20,7 +20,7 @@ friend_list = ["beer", "cookies", "apples"]
 
 combined_list = my_list+friend_list
 
-combined_list.sort! # sorts the array alphabetically
+combined_list.sort # sorts the array alphabetically
 combined_list.uniq! # removes duplicates
 # These commands sort the array permanently
 # If you want to display temporary sort use it in puts e.g. puts combined_list.uniq

@@ -4,6 +4,26 @@
 
 # Hashes are lists of *key-value pairs*
 
+profile = {
+    name: "Ram",
+    location: {
+        city: "Chicago",
+        state: "IL"
+    },
+    status: "learning SWD"
+}
+
+puts profile
+puts profile[:status]
+name = profile[:name]
+puts name
+
 # Accessing data from the hash
 
+puts profile[:location][:state]
+puts profile[:location][:city]
+
 # More Complex Hashes
+
+profile[:profession] = "Engineer"
+puts profile[:profession]
