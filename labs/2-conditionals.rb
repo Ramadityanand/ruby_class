@@ -37,8 +37,11 @@ puts "Total score is: #{total}"
 
 if total == 7 || total == 11
     puts "YOU WIN!"
+    # If total is 7 or 11 you win
 elsif total == 2 || total == 3 || total == 12
     puts "YOU LOSE!"
+    # If total is 2 or 3 or 12 you lose
 else 
     puts "THE POINT IS #{total}"
+    # Any other number please continue rolling
 end
